@@ -16,6 +16,9 @@ import videoSensingInsetIconURL from './videoSensing/video-sensing-small.svg';
 import text2speechIconURL from './text2speech/text2speech.png';
 import text2speechInsetIconURL from './text2speech/text2speech-small.svg';
 
+import text2speechvietnameseIconURL from './text2speechvietnamese/text2speechvietnamese.png';
+import text2speechvietnameseInsetIconURL from './text2speechvietnamese/text2speechvietnamese-small.png';
+
 import speech2textIconURL from './speech2text/speech2text.png';
 import speech2textInsetIconURL from './speech2text/speech2text-small.svg';
 
@@ -149,6 +152,28 @@ export default [
                 defaultMessage="Make your projects talk."
                 description="Description for the Text to speech extension"
                 id="gui.extension.text2speech.description"
+            />
+        ),
+        featured: true,
+        internetConnectionRequired: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Text to Speech Vietnamese
+                description="Name for the Text to Speech extension Vietnamese"
+                id="gui.extension.text2speechvietnamese.name"
+            />
+        ),
+        extensionId: 'text2speechvietnamese',
+        collaborator: 'Goosef Services',
+        iconURL: text2speechvietnameseIconURL,
+        insetIconURL: text2speechvietnameseInsetIconURL,
+        description: (
+            <FormattedMessage
+                defaultMessage="Make your projects talk Vietnamese."
+                description="Description for the Text to speech extension Vietnamese"
+                id="gui.extension.text2speechvietnamese.description"
             />
         ),
         featured: true,
