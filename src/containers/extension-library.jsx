@@ -16,7 +16,7 @@ const messages = defineMessages({
         id: 'gui.extensionLibrary.chooseAnExtension'
     },
     extensionUrl: {
-        defaultMessage: 'Enter the URL of the extension',
+        defaultMessage: 'Enter the URL of the extension1',
         description: 'Prompt for unoffical extension url',
         id: 'gui.extensionLibrary.extensionUrl'
     }
