@@ -160,7 +160,7 @@ export default [
     {
         name: (
             <FormattedMessage
-                defaultMessage="Text to Speech Vietnamese
+                defaultMessage="Text to Speech Vietnamese"
                 description="Name for the Text to Speech extension Vietnamese"
                 id="gui.extension.text2speechvietnamese.name"
             />
